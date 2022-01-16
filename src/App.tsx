@@ -4,6 +4,7 @@ import { Switch, Route, useLocation } from "react-router-dom";
 import "./css/style.scss";
 
 import AOS from "aos";
+// @ts-ignore
 import { focusHandling } from "cruip-js-toolkit";
 
 import Home from "./pages/Home";
