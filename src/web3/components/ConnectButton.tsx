@@ -38,7 +38,7 @@ export default function Button() {
   } else if (isActivating) {
     child = <>Connecting...</>;
   } else if (active) {
-    if (ens?.length > 0) {
+    if (ens?.length > 0 && ens[0]?.length > 0) {
       child = <>{ens[0]}</>;
     } else {
       child = <>{smartTrim(account, 10)}</>;
